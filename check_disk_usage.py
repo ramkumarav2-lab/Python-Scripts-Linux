@@ -1,6 +1,6 @@
 import shutil
 
-threshold = 10
+threshold = 80
 total, used, free = shutil.disk_usage("/")
 
 usage = int((used / total) * 100)
